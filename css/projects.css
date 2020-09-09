@@ -1,0 +1,98 @@
+#list-bullet {
+    text-decoration-color: black;
+}
+
+#project-box {
+    font-size: 40px;
+}
+
+h2#project-header {
+    font-size: 40px !important;
+    font-weight: 500;
+    text-decoration: underline;
+    
+}
+h2#project-header, ul#breakdown-list {
+    margin: 16px;
+    font-size: 32px;
+}
+
+ul li#list-bullet {
+    list-style-type: disc;
+}
+
+p#link-title {
+    padding-left: 16px;
+}
+
+#post-title-link, #post-title-link:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color:#FCD224;
+}
+
+#post-title-link:focus, #post-title-link:active { 
+    text-decoration: none;
+    color: inherit;
+}
+/* New grid system */
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
+
+    grid-gap: 8px;
+    /* padding: 16px; */
+    padding-left: 16px;
+    align-content: center;
+}
+.posts-grid > div {
+    /* text-align: center; */
+    font-size: 24px;
+}
+
+img#post-preview-photo {
+    max-width: 80%;
+    object-fit: cover;
+}
+/* end of new grid system */
+
+/* Mobile phone sizes */
+@media screen and (max-width: 480px) 
+  and (orientation: portrait) { 
+
+    #post-title-link {
+        padding-left: 16px;
+    }
+    img#post-preview-photo {
+        padding-left: 16px;
+    }
+
+      #project-header {
+          font-size:32px !important;
+    
+    }
+    #list-bullet {
+        font-size: 24px !important;
+    }
+
+    #breakdown-list a {
+        text-decoration: underline;
+        text-decoration-color:#FCD224;
+        font-size: 24px;
+    }
+
+
+}
+
+
+/* Tablet sizes */
+@media screen 
+and (min-device-width: 760px) 
+and (max-width: 768px) 
+  and (orientation: portrait) { 
+   
+
+
+}

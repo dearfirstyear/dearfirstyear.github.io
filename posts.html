@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div id="project-box">
+  <h2 id="project-header"> Posts </h2>
+
+
+  <div class="posts-grid">
+    {% for post in site.posts %}
+    <div id="individual-post-preview"> 
+      <a href="{{post.url}}">
+      <!-- <img id="post-preview-photo" src="{{site.baseurl}}{{post.image_slug}}"> -->
+      {% if post.image_slug  %}
+        <img id="post-preview-photo" src="{{site.baseurl}}{{post.image_slug}}" alt="post image"/> 
+      {% elsif post.image_url %}
+        <img id="post-preview-photo" src="{{post.image_url}}" alt="post image"/> 
+      {% else %}
+        <img id="post-preview-photo" src="https://source.unsplash.com/1600x900/?university" alt="post image"/> 
+{% endif %}
+    </a>
+      <p id="link-title"><a href="{{post.url}}" id="post-title-link"> {{post.title}}</a></p>
+    </div>
+    {% endfor %}
+  </div>
+
+
+</div>

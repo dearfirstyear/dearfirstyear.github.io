@@ -1,0 +1,97 @@
+#post-box {
+    padding-left: 32px;
+    font-size: 24px;
+    width: 96%;
+}
+
+h1.blog-title {
+  font-size: 48px;
+}
+
+h2.author {
+  padding-top: 8px;
+  font-size: 24px;
+}
+#post-image {
+    max-width: 40%;
+    margin: 8px;
+    display: block;
+}
+
+.button {
+    background-color: #FCD224;
+    border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+.blog-banner-image {
+  width: 100%;
+  object-fit: cover;
+  max-height: 60vh;
+}
+
+.blog-info {
+  text-align: center;
+  margin: 24px;
+}
+
+
+.blog-info h1, h3 {
+  margin:0px;
+
+}
+.blog-box {
+  padding-left: 128px;
+  padding-right: 128px;
+  font-size: 24px;
+  line-height: 1.5;
+  background-clip: content-box;
+}
+
+/* Mobile phone sizes */
+@media screen and (max-width: 480px) 
+  and (orientation: portrait) { 
+
+      h1#post-title, h1.blog-title  {
+        font-size: 32px;
+    }
+
+    h2.author {
+      font-size: 16px;
+    }
+    h2.published-date {
+      font-size: 16px;
+    }
+
+    #post-image {
+        max-width: 88%;
+        margin: 8px;
+        display: block;
+    }
+
+    #post-box, .blog-box {
+        padding-left: 32px;
+        font-size: 16px;
+        width: 96%;
+        padding-right: 32px;
+    }
+
+}
+
+@media screen and (max-height: 480px) 
+  and (orientation: landscape)  { 
+
+    #post-image {
+        max-width: 56%;
+        margin: 8px;
+        display: block;
+    }
+  } 
