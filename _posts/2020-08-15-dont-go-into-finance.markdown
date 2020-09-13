@@ -38,4 +38,5 @@ What proceeded to happen was the following:
 Thankfully, at that point I realized regardless of the benefits and hype around finance, that role was not for me — at least for now. Did I learn a lot about finance up until then? Yes, but in chasing a role because of hype and not out of genuine interest/passion, I unintentionally boxed myself out from considering scores of other options and fields. It's a good thing I ended up in Computer Science (a story for another day), but as you embark on your college journey, I'd urge you to think deeply about your motivations when it comes to recruiting and the other aspects of your life. Leverage this incredible time to think deeply about who you want to be and don't let the hype of certain fields engulf you like it did for me my first year. 
 
 Best,
+
 Will
