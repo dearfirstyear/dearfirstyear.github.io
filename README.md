@@ -12,5 +12,5 @@ This site is currently built with Jekyll and run via Github Pages.
 
 To run the website locally, ensure you have the required plugins and then run:
 ```
-jekyll serve --config __localconfig.yml
+bundle exec jekyll serve
 ```
