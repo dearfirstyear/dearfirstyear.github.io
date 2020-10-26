@@ -2,9 +2,9 @@
 layout: blog
 title:  "Don't go into consulting"
 author: "Will Essilfie"
-date:   2020-11-13 21:10:00 -0800
+date:   2020-11-01 21:10:00 -0800
 tags: "consulting, clubs, learning, internships"
-image_slug: /img/posts/dgifinance.jpg
+image_slug: /img/posts/dgiconsulting.jpg
 ---
 Dear First Year,
 
