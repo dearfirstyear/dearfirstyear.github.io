@@ -12,7 +12,6 @@ Remember when I said, [don't go into finance](https://www.dearfirstyear.com/post
 
 It's basically the same story with consulting but add in waking up at 4AM every week to fly to a random city in the country writing decks that'll often be ignored. 
 
-
 Shoutout to Alexandra, my Intern Manager/mentor/friend for helping steer me away from this!
 
 Best, 
